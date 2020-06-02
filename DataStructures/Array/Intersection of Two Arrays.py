@@ -2,6 +2,7 @@
 ~Given two arrays, write a function to compute their intersection.
 """
 
+
 class Solution(object):
     def intersect(self, nums1, nums2):
         """
