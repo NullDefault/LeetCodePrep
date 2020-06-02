@@ -15,3 +15,5 @@ class Solution(object):
         :rtype: None Do not return anything, modify s in-place instead.
         """
         s = s.reverse()
+        # This also works
+        # s = s[::-1]

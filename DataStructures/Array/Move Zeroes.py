@@ -32,14 +32,14 @@ class Solution2(object):
         :type nums: List[int]
         :rtype: None Do not return anything, modify nums in-place instead.
         """
-        insertAt = 0
-        zeroCount = 0
+        insert_at = 0
+        zero_count = 0
         for i in range(0, len(nums)):
             if nums[i] != 0:
-                nums[insertAt] = nums[i]
-                insertAt += 1
+                nums[insert_at] = nums[i]
+                insert_at += 1
             else:
-                zeroCount += 1
-        while(zeroCount > 0):
-            nums[len(nums) - zeroCount] = 0
-            zeroCount -= 1
+                zero_count += 1
+        while zero_count > 0:
+            nums[len(nums) - zero_count] = 0
+            zero_count -= 1
