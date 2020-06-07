@@ -16,14 +16,14 @@ from collections import deque
 
 
 class Solution:
-    def maxDepth(self, root: TreeNode) -> int:
+    def max_depth(self, root: TreeNode) -> int:
         if root is None:
             return 0
-        return max(self.maxDepth(root.left), self.maxDepth(root.right)) + 1
+        return max(self.max_depth(root.left), self.max_depth(root.right)) + 1
 
 
 class QueueSolution:
-    def maxDepth(self, root: TreeNode) -> int:
+    def max_depth(self, root: TreeNode) -> int:
         if root is None:
             return 0
         queue = deque()

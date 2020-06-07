@@ -9,7 +9,7 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
+    def remove_nth_from_end(self, head: ListNode, n: int) -> ListNode:
 
         # Edge case if the given list is of size 1
         if head.next is None:

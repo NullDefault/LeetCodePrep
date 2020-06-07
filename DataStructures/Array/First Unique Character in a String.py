@@ -4,7 +4,7 @@
 
 
 class Solution(object):
-    def firstUniqChar(self, s):
+    def first_uniq_char(self, s):
         """
         :type s: str
         :rtype: int
@@ -30,7 +30,7 @@ class Solution(object):
 
 
 class CleanSolution:
-    def firstUniqChar(self, s: str) -> int:
+    def first_uniq_char(self, s: str) -> int:
         """
         :type s: str
         :rtype: int

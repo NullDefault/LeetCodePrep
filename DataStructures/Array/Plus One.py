@@ -9,7 +9,7 @@
 
 
 class Solution(object):
-    def plusOne(self, digits):
+    def plus_one(self, digits):
         """
         :type digits: List[int]
         :rtype: List[int]

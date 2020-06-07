@@ -6,7 +6,7 @@
 
 
 class Solution(object):
-    def isPalindrome(self, s):
+    def is_palindrome(self, s):
         """
         :type s: str
         :rtype: bool

@@ -5,7 +5,7 @@
 
 
 class Solution(object):
-    def moveZeroes(self, nums):
+    def move_zeroes(self, nums):
         """
         :type nums: List[int]
         :rtype: None Do not return anything, modify nums in-place instead.
@@ -27,7 +27,7 @@ class Solution(object):
 
 # This is the optimized 2 pointer approach. Accomplishes the same in considerably less number of operations.
 class Solution2(object):
-    def moveZeroes(self, nums):
+    def move_zeroes(self, nums):
         """
         :type nums: List[int]
         :rtype: None Do not return anything, modify nums in-place instead.

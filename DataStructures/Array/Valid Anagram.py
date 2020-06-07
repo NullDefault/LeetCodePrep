@@ -4,7 +4,7 @@
 
 
 class Solution(object):
-    def isAnagram(self, s, t):
+    def is_anagram(self, s, t):
         """
         :type s: str
         :type t: str

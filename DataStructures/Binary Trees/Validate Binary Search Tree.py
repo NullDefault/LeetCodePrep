@@ -19,7 +19,7 @@
 
 
 class Solution:
-    def isValidBST(self, root: TreeNode, minNode=None, maxNode=None) -> bool:
+    def is_valid_bst(self, root: TreeNode, minNode=None, maxNode=None) -> bool:
         if root is None:
             return True
         elif minNode and root.val >= minNode.val:
@@ -27,5 +27,5 @@ class Solution:
         elif maxNode and root.val <= maxNode.val:
             return False
         else:
-            return self.isValidBST(root.left, minNode=root, maxNode=maxNode) \
-                   and self.isValidBST(root.right, minNode=minNode, maxNode=root)
+            return self.is_valid_bst(root.left, minNode=root, maxNode=maxNode) \
+                   and self.is_valid_bst(root.right, minNode=minNode, maxNode=root)

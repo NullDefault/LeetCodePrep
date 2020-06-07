@@ -11,7 +11,7 @@
 
 
 class PersonalSolution:
-    def isValid(self, s: str) -> bool:
+    def is_valid(self, s: str) -> bool:
         if s == "":
             return True
 
@@ -40,7 +40,7 @@ class PersonalSolution:
 
 class CleanSolutionFromLC:
     class Solution:
-        def isValid(self, s: str) -> bool:
+        def is_valid(self, s: str) -> bool:
 
             stack = []
             left = "([{"

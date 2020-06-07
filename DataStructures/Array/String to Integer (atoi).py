@@ -23,7 +23,7 @@ no conversion is performed.
 
 
 class Solution:
-    def myAtoi(self, s: str) -> int:
+    def my_atoi(self, s: str) -> int:
         max_int = 2147483647
         n = len(s)
 

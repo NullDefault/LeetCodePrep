@@ -4,7 +4,7 @@
 
 
 class Solution(object):
-    def isPowerOfThree(self, n):
+    def is_power_of_three(self, n):
         """
         :type n: int
         :rtype: bool

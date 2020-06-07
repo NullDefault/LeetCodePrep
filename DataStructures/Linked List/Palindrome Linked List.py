@@ -11,7 +11,7 @@
 
 
 class SuboptimalSolution:
-    def isPalindrome(self, head: ListNode) -> bool:
+    def is_palindrome(self, head: ListNode) -> bool:
         if head is None:
             return True
         if head.next is None:

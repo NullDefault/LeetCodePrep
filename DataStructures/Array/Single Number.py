@@ -10,7 +10,7 @@
 
 
 class Solution(object):
-    def singleNumber(self, nums):
+    def single_number(self, nums):
         """
         :type nums: List[int]
         :rtype: int
@@ -38,7 +38,7 @@ So we can XOR all bits together to find the unique number.
 
 
 class Solution(object):
-    def singleNumber(self, nums):
+    def single_number(self, nums):
         """
         :type nums: List[int]
         :rtype: int
