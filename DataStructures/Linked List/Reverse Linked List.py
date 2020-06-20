@@ -23,3 +23,14 @@ class IterativeSolution:
 
         node.next = last_node
         return node
+
+
+class RecursiveSolution:
+    def reverse_list(self, head: ListNode) -> ListNode:
+        if head is None or head.next is None:
+            return head
+        else:
+            a = self.reverse_list(head.next)
+            head.next.next = head
+            head.next = None
+            return a
