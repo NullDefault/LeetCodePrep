@@ -17,3 +17,20 @@ class Solution(object):
         s = s.reverse()
         # This also works
         # s = s[::-1]
+
+
+class RecursiveInPlaceSolution:
+    def reverse_string(self, s: List[str]) -> None:
+        """
+        Do not return anything, modify s in-place instead.
+        """
+        self.reverse(s, 0, len(s) - 1)
+
+    def reverse(self, s, l, r):
+        if l >= r:
+            return
+        else:
+            temp = s[l]
+            s[l] = s[r]
+            s[r] = temp
+            self.reverse(s, l + 1, r - 1)
